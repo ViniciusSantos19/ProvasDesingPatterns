@@ -1,0 +1,5 @@
+Halter =  ifba.edu.br.factory.HalterFactory;
+Acessorio = ifba.edu.br.factory.AcessorioFactory;
+Maquina =   ifba.edu.br.factory.MaquinaFactory;
+
+
