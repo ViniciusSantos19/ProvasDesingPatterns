@@ -42,6 +42,18 @@ public class Curso extends Produto{
 		return 0;
 	}
 	
+	public String toString() {
+		return "#Curso#" + super.toString();
+	}
+
+	public List<Livro> getLivros() {
+		return livros;
+	}
+
+	public List<Disciplina> getDisciplinas() {
+		return disciplinas;
+	}
+	
 	
 	
 	

@@ -7,7 +7,9 @@ public class Livro extends Produto{
 	private String isbn;
 	private double preco;
 	
-	
+	public Livro(String codigo, String nome) {
+		super(codigo, nome);
+	}
 	
 	public Livro(String isbn, String codigo, String nome, double preco) {
 		super(codigo, nome);
@@ -48,6 +50,8 @@ public class Livro extends Produto{
 	}
 
 	
-	
+	public String toString() {
+		return "#Livro#" + super.toString();
+	}
 	
 }

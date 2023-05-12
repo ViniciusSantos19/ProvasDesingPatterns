@@ -8,7 +8,9 @@ public class Disciplina extends Produto{
 	private double pcCumprido;
 	private double preco;
 	
-	
+	public Disciplina(String codigo, String nome) {
+		super(codigo, nome);
+	}
 	
 	public Disciplina(int chTotal, double pcCumprido, double preco, String nome, String codigo) {
 		super(codigo, nome);
@@ -58,6 +60,8 @@ public class Disciplina extends Produto{
 		return new Disciplina(this);
 	}
 	
-	
+	public String toString() {
+		return "#Disciplina#" + super.toString();
+	}
 	
 }
